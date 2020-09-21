@@ -45,3 +45,130 @@ body {
   background-color: #B43930;
   color: #C46A61;
 }
+
+.sk8t-header {
+  margin-top: 12px;
+}
+
+.sk8t-hitems {
+  margin-left: 15px;
+  text-align: center;
+  background-color: #B72A31;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.left-dash {
+  padding-right: 15px;
+}
+
+.right-dash {
+  padding-left: 15px;
+}
+
+.topimg {
+  width: 1126px;
+  height: 328px;
+  background-image: url("https://raw.githubusercontent.com/ccs-summer-2020/assignments/master/SK8/images/top-image.png");
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  border: solid 8px white;
+  position: relative;
+}
+
+.gridimg {
+  width: 1094px;
+  height: 312px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+}
+
+.peralta-logo {
+  position: absolute;
+  top: 15%;
+  left: 3%;
+}
+
+.article-1 {
+  border: solid 1px white;
+  background-color: white;
+  margin-top: 50px;
+  padding-left: 24px;
+}
+
+.article-1 h1 {
+  font-size: 27px;
+  padding-top: 19px;
+}
+
+.tonydate {
+  margin-top: 20px;
+  color: #C7C7C7;
+}
+
+.tonypbody {
+  font-size: 14px;
+}
+
+.article-2 {
+  border: solid 1px white;
+  background-color: white;
+  margin-top: 50px;
+  padding-left: 24px;
+  margin-left: 30px;
+}
+
+.article-2 h1 {
+  font-size: 27px;
+  padding-top: 19px;
+}
+
+.article-2 h2 {
+  font-size: 25px;
+}
+
+.rodneydate {
+  margin-top: 13px;
+  color: #C7C7C7;
+}
+
+.rodneypbody {
+  font-size: 14px;
+}
+
+.article-3 {
+  border: solid 1px white;
+  background-color: white;
+  margin-top: 50px;
+  padding-left: 24px;
+  margin-left: 30px;
+}
+
+.article-3 h1 {
+  font-size: 27px;
+  padding-top: 19px;
+}
+
+.article-3 h2 {
+  font-size: 25px;
+}
+
+.raydate {
+  margin-top: 13px;
+  color: #C7C7C7;
+}
+
+.raypbody {
+  font-size: 14px;
+  margin-top: 28px;
+}
+.read-more{
+  text-align: center;
+  color: #BF3B44;
+}
