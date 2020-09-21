@@ -2,4 +2,46 @@ body {
   background-image: url("https://github.com/ccs-summer-2020/assignments/blob/master/SK8/images/bg.jpg?raw=true");
 }
 
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subscribe {
+  color: #D0CCC9;
+  padding-right: 10%;
+  font-size: 17px;
+  padding-top: 35px;
+}
+
+.nav-icons a {
+  text-decoration: none;
+  padding-top: 25px;
+  font-size: 40px;
+}
+
+.fa-facebook-f::before {
+  padding: 10px 13px;
+  color: #7583AD;
+  background-color: #435895;
+}
+
+.fa-rss::before {
+  padding: 10px 13px;
+  background-color: #CE903D;
+  color: #DAAD6C;
+}
+
+.fa-twitter::before {
+  padding: 10px 13px;
+  color: #8DA8D1;
+  background-color: #688DC4;
+}
+
+.fa-youtube::before {
+  padding: 10px 13px;
+  background-color: #B43930;
+  color: #C46A61;
+}
+
 /*# sourceMappingURL=styles.css.map */
