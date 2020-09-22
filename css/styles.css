@@ -1,5 +1,10 @@
 body {
   background-image: url("https://github.com/ccs-summer-2020/assignments/blob/master/SK8/images/bg.jpg?raw=true");
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: relative;
 }
 
 .top-nav {
@@ -8,7 +13,7 @@ body {
 }
 
 .subscribe {
-  color: #D0CCC9;
+  color: #E0DCD9;
   padding-right: 10%;
   font-size: 17px;
   padding-top: 35px;
@@ -21,25 +26,25 @@ body {
 }
 
 .fa-facebook-f::before {
-  padding: 10px 13px;
+  padding: 7px 8px;
   color: #7583AD;
   background-color: #435895;
 }
 
 .fa-rss::before {
-  padding: 10px 13px;
+  padding: 7px 8px;
   background-color: #CE903D;
   color: #DAAD6C;
 }
 
 .fa-twitter::before {
-  padding: 10px 13px;
+  padding: 7px 8px;
   color: #8DA8D1;
   background-color: #688DC4;
 }
 
 .fa-youtube::before {
-  padding: 10px 13px;
+  padding: 7px 8px;
   background-color: #B43930;
   color: #C46A61;
 }
@@ -54,7 +59,7 @@ body {
   background-color: #B72A31;
   color: white;
   padding: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .left-dash {
@@ -69,17 +74,15 @@ body {
   width: 1126px;
   height: 328px;
   background-image: url("https://raw.githubusercontent.com/ccs-summer-2020/assignments/master/SK8/images/top-image.png");
-  background-repeat: no-repeat;
-  background-position: 50% 25%;
+  background-position: 48% 25%;
   margin-top: 20px;
-  padding: 10px;
   margin-left: 10px;
   border: solid 8px white;
   position: relative;
 }
 
 .gridimg {
-  width: 1094px;
+  width: 809px;
   height: 312px;
   position: absolute;
   left: 0;
@@ -90,13 +93,13 @@ body {
 .peralta-logo {
   position: absolute;
   top: 15%;
-  left: 3%;
+  left: 1%;
 }
 
 .article-1 {
   border: solid 1px white;
   background-color: white;
-  margin-top: 50px;
+  margin-top: 40px;
   padding-left: 24px;
 }
 
@@ -117,7 +120,7 @@ body {
 .article-2 {
   border: solid 1px white;
   background-color: white;
-  margin-top: 50px;
+  margin-top: 40px;
   padding-left: 24px;
   margin-left: 30px;
 }
@@ -143,7 +146,7 @@ body {
 .article-3 {
   border: solid 1px white;
   background-color: white;
-  margin-top: 50px;
+  margin-top: 40px;
   padding-left: 24px;
   margin-left: 30px;
 }
@@ -164,12 +167,158 @@ body {
 
 .raypbody {
   font-size: 14px;
-  margin-top: 28px;
+  margin-top: 57px;
 }
 
 .read-more {
   text-align: center;
   color: #BF3B44;
+}
+
+.sk8ters {
+  position: relative;
+}
+
+.lance {
+  width: 335px;
+  height: 235px;
+  background-image: url("https://raw.githubusercontent.com/ccs-summer-2020/assignments/master/SK8/images/sk8er-4.png");
+  background-repeat: no-repeat;
+  background-position: 100% 25%;
+  margin-top: 30px;
+  border: solid 5px white;
+  position: relative;
+}
+
+.sk8ter-1-firstname {
+  color: white;
+  font-size: 46px;
+  position: absolute;
+  left: 28%;
+  top: 17%;
+}
+
+.sk8ter-1-lastname {
+  color: white;
+  font-size: 46px;
+  position: absolute;
+  left: 15%;
+  top: 33%;
+}
+
+.rodney {
+  width: 335px;
+  height: 235px;
+  background-image: url("https://raw.githubusercontent.com/ccs-summer-2020/assignments/master/SK8/images/sk8er-3.png");
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  margin-left: 7px;
+  position: relative;
+  border: solid 5px white;
+}
+
+.sk8ter-2-firstname {
+  color: white;
+  font-size: 46px;
+  position: absolute;
+  left: 26%;
+  top: 16%;
+}
+
+.sk8ter-2-lastname {
+  color: white;
+  font-size: 46px;
+  position: absolute;
+  left: 29%;
+  top: 36%;
+}
+
+.tommy {
+  width: 335px;
+  height: 469px;
+  border: solid 5px white;
+  background-image: url("https://github.com/ccs-summer-2020/assignments/blob/master/SK8/images/sk8er-2.png?raw=true");
+  position: absolute;
+  left: 68%;
+  top: 11%;
+  background-position: 100%;
+}
+
+.sk8ter-3-firstname {
+  color: white;
+  font-size: 46px;
+  position: absolute;
+  left: 26%;
+  top: 39%;
+}
+
+.sk8ter-3-lastname {
+  color: white;
+  font-size: 46px;
+  position: absolute;
+  left: 22%;
+  top: 49%;
+}
+
+.steve {
+  width: 576px;
+  height: 230px;
+  position: absolute;
+  top: 101%;
+  left: 0;
+  border: solid 5px white;
+}
+
+.steve img {
+  width: 566px;
+  height: 220px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sk8ter-4-firstname {
+  color: white;
+  font-size: 46px;
+  position: absolute;
+  left: 25%;
+  top: 27%;
+}
+
+.arrow-style {
+  padding-top: 25px;
+  background-color: #B72A31;
+  width: 233px;
+  position: absolute;
+  height: 80px;
+  right: 31%;
+  font-size: 20px;
+  top: 85%;
+  text-align: center;
+  color: white;
+}
+
+.left-col {
+  position: relative;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 40px solid #B72A31;
+  position: absolute;
+  right: 3%;
+  top: 85%;
+}
+
+.arrow p {
+  display: none;
+}
+
+.sk8tboards {
+  margin-top: 265px;
 }
 
 /*# sourceMappingURL=styles.css.map */
