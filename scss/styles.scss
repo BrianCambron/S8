@@ -298,7 +298,7 @@ body {
   height: 80px;
   right: 31%;
   font-size: 20px;
-  top: 85%;
+  top: 1053px;
   text-align: center;
   color: white;
 }
@@ -315,12 +315,18 @@ body {
   border-left: 40px solid #B72A31;
   position: absolute;
   right: 3%;
-  top: 85%;
+  top: 1053px;
 }
 
 .arrow p {
   display: none;
 }
-.sk8tboards{
+
+.sk8tboards {
   margin-top: 265px;
+  position: relative;
+
 }
+// .boards img{
+//     transform: rotate(90deg);
+// }
